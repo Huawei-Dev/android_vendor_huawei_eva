@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <!--左起第 2 屏-->
+    <favorite
+        launcher:packageName="com.huawei.appmarket"
+        launcher:className="com.huawei.appmarket.MainActivity"
+        launcher:op="delete" />
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="4"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify" />
+    <!--左起第 3 屏-->
+    <favorite
+        launcher:packageName="com.huawei.hwireader"
+        launcher:className="com.chaozh.iReader.ui.activity.WelcomeActivity"
+        launcher:op="delete" />
+    <favorite
+        launcher:packageName="com.android.email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify" />
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.AlarmsMainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify" />
+    <favorite
+        launcher:packageName="com.huawei.systemmanager"
+        launcher:className="com.huawei.systemmanager.mainscreen.MainScreenActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify" />
+    <favorite
+        launcher:packageName="com.huawei.phoneservice"
+        launcher:className="com.huawei.phoneservice.ui.HelpCenterActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify" />
+    <favorite
+        launcher:packageName="com.huawei.health"
+        launcher:className="com.huawei.healthcloud.cardui.MainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify" />
+    <favorite
+        launcher:packageName="com.vmall.client"
+        launcher:className="com.vmall.client.activity.VmallWapActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify" />
+    <favorite
+        launcher:packageName="com.huawei.gamebox"
+        launcher:className="com.huawei.gamebox.GameBoxActivity"
+        launcher:op="delete" />
+    <favorite
+        launcher:packageName="com.huawei.KoBackup"
+        launcher:className="com.huawei.KoBackup.InitializeActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify" />
+
+
+    <folder
+        launcher:title="@string/folder_social_apps"
+        launcher:op="delete" />
+    <folder
+        launcher:title="@string/folder_social_apps"
+        launcher:appid="HITOP00000197"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="2"
+        launcher:op="insert">
+        <favorite
+            launcher:packageName="com.huawei.lives"
+            launcher:className="com.huawei.lifeservice.basefunction.ui.entry.LandingActivity" />
+        <favorite
+            launcher:packageName="com.aspire.mm"
+            launcher:className="com.aspire.mm.app.HotSaleActivity" />
+        <favorite
+            launcher:packageName="com.huawei.portal"
+            launcher:className="com.huawei.portal.MobilePortal" />
+
+    </folder>
+
+    <folder
+        launcher:title="@string/folder_entertainment_apps"
+        launcher:op="delete" />
+    <folder
+        launcher:title="@string/folder_entertainment_apps"
+        launcher:appid="HITOP00000198"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2"
+        launcher:op="insert">
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.SoundRecorder" />
+        <favorite
+            launcher:packageName="com.sankuai.meituan"
+            launcher:className="com.sankuai.meituan.activity.Welcome" />
+
+    </folder>
+
+    <folder
+        launcher:title="@string/folder_work_related_apps"
+        launcher:op="delete" />
+    <folder
+        launcher:title="@string/folder_work_related_apps"
+        launcher:appid="HITOP00000199"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3"
+        launcher:op="insert">
+        <favorite
+            launcher:packageName="com.example.android.notepad"
+            launcher:className="com.example.android.notepad.NotePadActivity" />
+        <favorite
+            launcher:packageName="cn.cj.pe"
+            launcher:className="com.mail139.about.LaunchActivity" />
+        <favorite
+            launcher:packageName="com.baidu.searchbox"
+            launcher:className="com.baidu.searchbox.SplashActivity" />
+        <favorite
+            launcher:packageName="com.iflytek.inputmethod"
+            launcher:className="com.iflytek.inputmethod.LauncherActivity" />
+        <favorite
+            launcher:packageName="com.qihoo.browser"
+            launcher:className="com.qihoo.browser.activity.SplashActivity2" />
+        <favorite
+            launcher:packageName="cn.wps.moffice_eng"
+            launcher:className="cn.wps.moffice.documentmanager.PreStartActivity" />
+
+    </folder>
+
+</favorites>

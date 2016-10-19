@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+
+    <!--左起第 3 屏-->
+
+    <folder
+        launcher:title="@string/folder_social_apps"
+        launcher:op="delete" />
+    <folder
+        launcher:title="@string/folder_social_apps"
+        launcher:appid="HITOP00000197"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3"
+        launcher:op="insert">
+        <favorite
+            launcher:packageName="com.huawei.fans"
+            launcher:className="com.huawei.fans.activity.MainActivity" />
+        <favorite
+            launcher:packageName="com.huawei.lives"
+            launcher:className="com.huawei.lifeservice.basefunction.ui.entry.LandingActivity" />
+        <favorite
+            launcher:packageName="com.huawei.vdrive"
+            launcher:className="com.huawei.vdrive.ui.VDriveActivity" />
+        <favorite
+            launcher:packageName="com.sina.weibo"
+            launcher:className="com.sina.weibo.SplashActivity" />
+        <favorite
+            launcher:packageName="com.taobao.taobao"
+            launcher:className="com.taobao.tao.welcome.Welcome" />
+        <favorite
+            launcher:packageName="com.dianping.v1"
+            launcher:className="com.dianping.v1.PermissionActivity" />
+        <favorite
+            launcher:packageName="com.netease.newsreader.activity"
+            launcher:className="com.netease.nr.biz.ad.AdActivity" />
+        <favorite
+            launcher:packageName="com.autonavi.minimap"
+            launcher:className="com.autonavi.map.activity.SplashActivity" />
+
+    </folder>
+
+    <folder
+        launcher:title="@string/folder_entertainment_apps"
+        launcher:op="delete" />
+    <folder
+        launcher:title="@string/folder_entertainment_apps"
+        launcher:appid="HITOP00000198"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="3"
+        launcher:op="insert">
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.SoundRecorder" />
+        <favorite
+            launcher:packageName="ctrip.android.view"
+            launcher:className="ctrip.android.view.home.CtripDeclarationActivity" />
+        <favorite
+            launcher:packageName="com.baseapp.eyeem"
+            launcher:className="com.baseapp.eyeem.Start" />
+
+    </folder>
+    <folder
+        launcher:title="@string/folder_work_related_apps"
+        launcher:op="delete" />
+    <folder
+        launcher:title="@string/folder_work_related_apps"
+        launcher:appid="HITOP00000199"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="3"
+        launcher:op="insert">
+        <favorite
+            launcher:packageName="com.example.android.notepad"
+            launcher:className="com.example.android.notepad.NotePadActivity" />
+        <favorite
+            launcher:packageName="com.huawei.hiskytone"
+            launcher:className="com.huawei.skytone.account.welcome.SplashActivity" />
+        <favorite
+            launcher:packageName="cn.wps.moffice_eng"
+            launcher:className="cn.wps.moffice.documentmanager.PreStartActivity" />
+        <favorite
+            launcher:packageName="com.baidu.searchbox"
+            launcher:className="com.baidu.searchbox.SplashActivity" />
+
+    </folder>
+
+</favorites>

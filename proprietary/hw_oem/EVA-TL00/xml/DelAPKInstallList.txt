@@ -1,0 +1,14 @@
+/data/dataapp/HwIntelligent/HwIntelligent.apk,priv
+/data/dataapp/WPS/WPS.apk
+/data/dataapp/HwVmall/HwVmall.apk
+/data/dataapp/HwRemoteAssistant/HwRemoteAssistant.apk
+/data/dataapp/HwHealthPlatform/HwHealthPlatform.apk
+/data/dataapp/AresRT_Mini/AresRT_Mini.apk
+/data/dataapp/HwLives/HwLives.apk
+/data/dataapp/HwbastetReleaseQQ/HwbastetReleaseQQ.apk
+/data/dataapp/MopriaPrintService/MopriaPrintService.apk
+/data/dataapp/HwAllBackup_CMCC/HwAllBackup_CMCC.apk
+/data/dataapp/HwMirror/HwMirror.apk
+/data/dataapp/HwPhoneDiagnose/HwPhoneDiagnose.apk
+/data/dataapp/HwCompass/HwCompass.apk
+/data/dataapp/Huawei_Swype_for_Huawei/Huawei_Swype_for_Huawei.apk
