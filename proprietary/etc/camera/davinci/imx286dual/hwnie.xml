@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Config>
+    <ISPControl>
+        <ISO1>
+            <isovalue>258</isovalue>
+            <isSharpnessOn>1</isSharpnessOn>
+            <isLumaDenoiseOn>1</isLumaDenoiseOn>
+            <isChromaDenoiseOn>1</isChromaDenoiseOn>
+        </ISO1>
+        <ISO2>
+            <isovalue>516</isovalue>
+            <isSharpnessOn>1</isSharpnessOn>
+            <isLumaDenoiseOn>1</isLumaDenoiseOn>
+            <isChromaDenoiseOn>1</isChromaDenoiseOn>
+        </ISO2>
+        <ISO3>
+            <isovalue>1200</isovalue>
+            <isSharpnessOn>1</isSharpnessOn>
+            <isLumaDenoiseOn>1</isLumaDenoiseOn>
+            <isChromaDenoiseOn>1</isChromaDenoiseOn>
+        </ISO3>
+        <ISO4>
+            <isovalue>1500</isovalue>
+            <isSharpnessOn>1</isSharpnessOn>
+            <isLumaDenoiseOn>1</isLumaDenoiseOn>
+            <isChromaDenoiseOn>1</isChromaDenoiseOn>
+        </ISO4>
+        <ISO5>
+            <isovalue>2500</isovalue>
+            <isSharpnessOn>1</isSharpnessOn>
+            <isLumaDenoiseOn>1</isLumaDenoiseOn>
+            <isChromaDenoiseOn>1</isChromaDenoiseOn>
+        </ISO5>
+        <ISO6>
+            <isovalue>3200</isovalue>
+            <isSharpnessOn>1</isSharpnessOn>
+            <isLumaDenoiseOn>1</isLumaDenoiseOn>
+            <isChromaDenoiseOn>1</isChromaDenoiseOn>
+        </ISO6>
+        <ISO7>
+            <isovalue>4800</isovalue>
+            <isSharpnessOn>1</isSharpnessOn>
+            <isLumaDenoiseOn>1</isLumaDenoiseOn>
+            <isChromaDenoiseOn>1</isChromaDenoiseOn>
+        </ISO7>
+        <ISO8>
+            <isovalue>20000</isovalue>
+            <isSharpnessOn>1</isSharpnessOn>
+            <isLumaDenoiseOn>1</isLumaDenoiseOn>
+            <isChromaDenoiseOn>1</isChromaDenoiseOn>
+        </ISO8>
+    </ISPControl>
+    <AlgoParams>
+        <ISO1>
+            <isovalue>258</isovalue>
+            <MSKR>
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+                <MultiscaleLevel>1</MultiscaleLevel>
+                <CkrWs>5</CkrWs>
+                <GradientWs>5</GradientWs>
+                <CkrSF>0.8</CkrSF>
+                <SkrAlpha>0.3</SkrAlpha> <!-- 0.25 -->
+                <SkrFilterGroup>3</SkrFilterGroup>
+                <EnableNoiseControl>1</EnableNoiseControl>
+
+                <IsSharpnessOn>0</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>8</Q1>
+                <Q2>250</Q2>
+                <Q3>300</Q3>
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+            </MSKR>
+            <EdgeEnhancement>
+                <IsSharpnessOn>1</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>20</Q1>
+                <Q2>90</Q2>
+                <Q3>150</Q3>
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+                <IsOscOn>1</IsOscOn>
+                <ThrL1>50</ThrL1>
+                <ThrL2>100</ThrL2>
+                <ThrD1>5</ThrD1>
+                <ThrD2>10</ThrD2>
+                <OvershootRatioMax>0.0</OvershootRatioMax>
+                <UndershootRatioMax>0.0</UndershootRatioMax>
+            </EdgeEnhancement>
+            <TextureRecovery>
+                <EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+                <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+                <Q0>1</Q0>  <!-- 倒几形 -->
+                <Q1>10</Q1>
+                <Q2>15</Q2>
+                <Q3>20</Q3>
+            </TextureRecovery>
+        </ISO1>
+        <ISO2>
+            <isovalue>516</isovalue>
+            <MSKR>
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+                <MultiscaleLevel>1</MultiscaleLevel>
+                <CkrWs>5</CkrWs>
+                <GradientWs>5</GradientWs>
+                <CkrSF>0.8</CkrSF>
+                <SkrAlpha>0.25</SkrAlpha> <!-- 0.25 -->
+                <SkrFilterGroup>3</SkrFilterGroup>
+                <EnableNoiseControl>1</EnableNoiseControl>
+
+                <IsSharpnessOn>0</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>8</Q1>
+                <Q2>250</Q2>
+                <Q3>300</Q3>
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+            </MSKR>
+            <EdgeEnhancement>
+                <IsSharpnessOn>1</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>20</Q1>
+                <Q2>90</Q2>
+                <Q3>150</Q3>
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+                <IsOscOn>1</IsOscOn>
+                <ThrL1>50</ThrL1>
+                <ThrL2>100</ThrL2>
+                <ThrD1>5</ThrD1>
+                <ThrD2>10</ThrD2>
+                <OvershootRatioMax>0.0</OvershootRatioMax>
+                <UndershootRatioMax>0.0</UndershootRatioMax>
+            </EdgeEnhancement>
+            <TextureRecovery>
+                <EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+                <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+                <Q0>1</Q0>  <!-- 倒几形 -->
+                <Q1>10</Q1>
+                <Q2>15</Q2>
+                <Q3>20</Q3>
+            </TextureRecovery>
+        </ISO2>
+        <ISO3>
+            <isovalue>1200</isovalue>
+            <MSKR>
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+                <MultiscaleLevel>1</MultiscaleLevel>
+                <CkrWs>5</CkrWs>
+                <GradientWs>5</GradientWs>
+                <CkrSF>0.8</CkrSF>
+                <SkrAlpha>0.25</SkrAlpha>
+                <SkrFilterGroup>3</SkrFilterGroup>
+                <EnableNoiseControl>1</EnableNoiseControl>
+
+                <IsSharpnessOn>0</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>8</Q1>
+                <Q2>250</Q2>
+                <Q3>300</Q3>
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+            </MSKR>
+            <EdgeEnhancement>
+                <IsSharpnessOn>1</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>20</Q1>
+                <Q2>90</Q2>
+                <Q3>150</Q3>
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+                <IsOscOn>1</IsOscOn>
+                <ThrL1>50</ThrL1>
+                <ThrL2>100</ThrL2>
+                <ThrD1>5</ThrD1>
+                <ThrD2>10</ThrD2>
+                <OvershootRatioMax>0.0</OvershootRatioMax>
+                <UndershootRatioMax>0.0</UndershootRatioMax>
+            </EdgeEnhancement>
+            <TextureRecovery>
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+                <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+                <Q0>1</Q0>  <!-- 倒几形 -->
+                <Q1>4</Q1>
+                <Q2>10</Q2>
+                <Q3>30</Q3>
+            </TextureRecovery>
+        </ISO3>
+        <ISO4>
+            <isovalue>1500</isovalue>
+            <MSKR>
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+                <MultiscaleLevel>1</MultiscaleLevel>
+                <CkrWs>5</CkrWs>
+                <GradientWs>5</GradientWs>
+                <CkrSF>0.8</CkrSF>
+                <SkrAlpha>0.25</SkrAlpha>
+                <SkrFilterGroup>3</SkrFilterGroup>
+                <EnableNoiseControl>1</EnableNoiseControl>
+
+                <IsSharpnessOn>0</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>8</Q1>
+                <Q2>250</Q2>
+                <Q3>300</Q3>
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+            </MSKR>
+            <EdgeEnhancement>
+                <IsSharpnessOn>1</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>20</Q1>
+                <Q2>90</Q2>
+                <Q3>150</Q3>
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+                <IsOscOn>1</IsOscOn>
+                <ThrL1>50</ThrL1>
+                <ThrL2>100</ThrL2>
+                <ThrD1>5</ThrD1>
+                <ThrD2>10</ThrD2>
+                <OvershootRatioMax>0.0</OvershootRatioMax>
+                <UndershootRatioMax>0.0</UndershootRatioMax>
+            </EdgeEnhancement>
+            <TextureRecovery>
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+                <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+                <Q0>1</Q0>  <!-- 倒几形 -->
+                <Q1>4</Q1>
+                <Q2>10</Q2>
+                <Q3>30</Q3>
+            </TextureRecovery>
+        </ISO4>
+        <ISO5>
+            <isovalue>2500</isovalue>
+            <MSKR>
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+                <MultiscaleLevel>1</MultiscaleLevel>
+                <CkrWs>5</CkrWs>
+                <GradientWs>5</GradientWs>
+                <CkrSF>0.8</CkrSF>
+                <SkrAlpha>0.25</SkrAlpha>
+                <SkrFilterGroup>3</SkrFilterGroup>
+                <EnableNoiseControl>1</EnableNoiseControl>
+
+                <IsSharpnessOn>0</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>8</Q1>
+                <Q2>250</Q2>
+                <Q3>300</Q3>
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+            </MSKR>
+            <EdgeEnhancement>
+                <IsSharpnessOn>1</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>20</Q1>
+                <Q2>90</Q2>
+                <Q3>150</Q3>
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+                <IsOscOn>1</IsOscOn>
+                <ThrL1>50</ThrL1>
+                <ThrL2>100</ThrL2>
+                <ThrD1>5</ThrD1>
+                <ThrD2>10</ThrD2>
+                <OvershootRatioMax>0.0</OvershootRatioMax>
+                <UndershootRatioMax>0.0</UndershootRatioMax>
+            </EdgeEnhancement>
+            <TextureRecovery>
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+                <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+                <Q0>1</Q0>  <!-- 倒几形 -->
+                <Q1>4</Q1>
+                <Q2>10</Q2>
+                <Q3>30</Q3>
+            </TextureRecovery>
+        </ISO5>
+        <ISO6>
+            <isovalue>3200</isovalue>
+            <MSKR>
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+                <MultiscaleLevel>1</MultiscaleLevel>
+                <CkrWs>5</CkrWs>
+                <GradientWs>5</GradientWs>
+                <CkrSF>0.8</CkrSF>
+                <SkrAlpha>0.25</SkrAlpha>
+                <SkrFilterGroup>3</SkrFilterGroup>
+                <EnableNoiseControl>1</EnableNoiseControl>
+
+                <IsSharpnessOn>0</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>8</Q1>
+                <Q2>250</Q2>
+                <Q3>300</Q3>
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+            </MSKR>
+            <EdgeEnhancement>
+                <IsSharpnessOn>1</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>20</Q1>
+                <Q2>90</Q2>
+                <Q3>150</Q3>
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+                <IsOscOn>1</IsOscOn>
+                <ThrL1>50</ThrL1>
+                <ThrL2>100</ThrL2>
+                <ThrD1>5</ThrD1>
+                <ThrD2>10</ThrD2>
+                <OvershootRatioMax>0.0</OvershootRatioMax>
+                <UndershootRatioMax>0.0</UndershootRatioMax>
+            </EdgeEnhancement>
+            <TextureRecovery>
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+                <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+                <Q0>1</Q0>  <!-- 倒几形 -->
+                <Q1>4</Q1>
+                <Q2>10</Q2>
+                <Q3>30</Q3>
+            </TextureRecovery>
+        </ISO6>
+        <ISO7>
+            <isovalue>4800</isovalue>
+            <MSKR>
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+                <MultiscaleLevel>1</MultiscaleLevel>
+                <CkrWs>5</CkrWs>
+                <GradientWs>5</GradientWs>
+                <CkrSF>0.8</CkrSF>
+                <SkrAlpha>0.25</SkrAlpha>
+                <SkrFilterGroup>3</SkrFilterGroup>
+                <EnableNoiseControl>1</EnableNoiseControl>
+
+                <IsSharpnessOn>0</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>8</Q1>
+                <Q2>250</Q2>
+                <Q3>300</Q3>
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+            </MSKR>
+            <EdgeEnhancement>
+                <IsSharpnessOn>1</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>20</Q1>
+                <Q2>90</Q2>
+                <Q3>150</Q3>
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+                <IsOscOn>1</IsOscOn>
+                <ThrL1>50</ThrL1>
+                <ThrL2>100</ThrL2>
+                <ThrD1>5</ThrD1>
+                <ThrD2>10</ThrD2>
+                <OvershootRatioMax>0.0</OvershootRatioMax>
+                <UndershootRatioMax>0.0</UndershootRatioMax>
+            </EdgeEnhancement>
+            <TextureRecovery>
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+                <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+                <Q0>1</Q0>  <!-- 倒几形 -->
+                <Q1>4</Q1>
+                <Q2>10</Q2>
+                <Q3>30</Q3>
+            </TextureRecovery>
+        </ISO7>
+        <ISO8>
+            <isovalue>20000</isovalue>
+            <MSKR>
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
+                <MultiscaleLevel>1</MultiscaleLevel>
+                <CkrWs>5</CkrWs>
+                <GradientWs>5</GradientWs>
+                <CkrSF>0.8</CkrSF>
+                <SkrAlpha>0.25</SkrAlpha>
+                <SkrFilterGroup>3</SkrFilterGroup>
+                <EnableNoiseControl>1</EnableNoiseControl>
+
+                <IsSharpnessOn>0</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>8</Q1>
+                <Q2>250</Q2>
+                <Q3>300</Q3>
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+            </MSKR>
+            <EdgeEnhancement>
+                <IsSharpnessOn>1</IsSharpnessOn>
+                <Q0>1</Q0>
+                <Q1>20</Q1>
+                <Q2>90</Q2>
+                <Q3>150</Q3>
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
+                <SharpLevelMin>0.3</SharpLevelMin>
+                <LPFParams1>26</LPFParams1>
+                <LPFParams2>53</LPFParams2>
+                <IsOscOn>1</IsOscOn>
+                <ThrL1>50</ThrL1>
+                <ThrL2>100</ThrL2>
+                <ThrD1>5</ThrD1>
+                <ThrD2>10</ThrD2>
+                <OvershootRatioMax>0.0</OvershootRatioMax>
+                <UndershootRatioMax>0.0</UndershootRatioMax>
+            </EdgeEnhancement>
+            <TextureRecovery>
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
+                <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
+                <Q0>1</Q0>  <!-- 倒几形 -->
+                <Q1>4</Q1>
+                <Q2>10</Q2>
+                <Q3>30</Q3>
+            </TextureRecovery>
+        </ISO8>
+    </AlgoParams>
+</Config>

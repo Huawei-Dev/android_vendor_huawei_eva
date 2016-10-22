@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="gb2312"?>
+<LaserCongig>
+<LaserFOVConfig>
+   <FOVDistance>100</FOVDistance>
+   <FOVCenter_X>2071</FOVCenter_X>
+   <FOVCenter_Y>1888</FOVCenter_Y>
+   <FOVWidth>1358</FOVWidth>
+   <FOVHeight>1358</FOVHeight>
+   <ImageWidth>3968</ImageWidth>
+   <ImageHeight>2976</ImageHeight>
+   <FOVThresholdCenter>15</FOVThresholdCenter>
+   <FOVThresholdSize>25</FOVThresholdSize>
+</LaserFOVConfig>
+
+<LaserOffsetConfig>
+   <OffsetDistance>100</OffsetDistance>
+   <OffsetThre>60</OffsetThre>
+</LaserOffsetConfig>
+
+<LaserCrosstalkConfig>
+   <CrosstalkDistance>600</CrosstalkDistance>
+   <CrosstalkThre>195</CrosstalkThre>
+</LaserCrosstalkConfig>
+
+<LaserDistanceConfig>
+   <DistanceNear>100</DistanceNear>
+   <DistanceFar>600</DistanceFar>
+   <DistanceNearThre>5</DistanceNearThre>
+   <DistanceFarThre>60</DistanceFarThre>
+</LaserDistanceConfig>
+
+<LaserDistanceNearSampleConfig>
+   <DistanceNearSampleNum>5</DistanceNearSampleNum>
+</LaserDistanceNearSampleConfig>
+
+<LaserDistanceFarSampleConfig>
+   <DistanceFarSampleNum>5</DistanceFarSampleNum>
+</LaserDistanceFarSampleConfig>
+
+<LaserOffsetSampleConfig>
+   <OffsetSampleNum>10</OffsetSampleNum> 
+</LaserOffsetSampleConfig>
+
+<LaserCrosstalkSampleConfig>
+   <CrosstalkSampleNum>10</CrosstalkSampleNum> 
+</LaserCrosstalkSampleConfig>
+
+<LaserSamplePeriodConfig>
+   <SamplePeriod>60</SamplePeriod> 
+</LaserSamplePeriodConfig>
+</LaserCongig>
