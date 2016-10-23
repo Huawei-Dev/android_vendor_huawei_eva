@@ -14,6 +14,3 @@
 
 PRODUCT_COPY_FILES += \
 	$(call find-copy-subdir-files,*,vendor/huawei/eva/proprietary/,system/)
-
-PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,vendor/huawei/eva/root/,root/)
