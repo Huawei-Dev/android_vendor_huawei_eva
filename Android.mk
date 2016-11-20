@@ -16,6 +16,27 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter eva,$(TARGET_DEVICE)),)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := HWJNIFLPLocation
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := system/framework/HWJNIFLPLocation.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GeofenceLocation
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := system/priv-app/GeofenceLocation/GeofenceLocation.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libGLES_mali.so libOpenCL.so && popd > /dev/null)
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libGLES_mali.so libOpenCL.so.1 && popd > /dev/null)
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libGLES_mali.so libOpenCL.so.1.1 && popd > /dev/null)

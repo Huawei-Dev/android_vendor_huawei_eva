@@ -12,4 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_PACKAGES += \
+    HWJNIFLPLocation \
+    GeofenceLocation
+
 $(call inherit-product, vendor/huawei/eva/eva-vendor-blobs.mk)
