@@ -16,4 +16,7 @@ PRODUCT_PACKAGES += \
     HWJNIFLPLocation \
     GeofenceLocation
 
+PRODUCT_BOOT_JARS += \
+    HWJNIFLPLocation
+
 $(call inherit-product, vendor/huawei/eva/eva-vendor-blobs.mk)
