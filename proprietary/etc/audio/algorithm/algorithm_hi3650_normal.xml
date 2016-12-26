@@ -73,7 +73,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -149,7 +149,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
             <device input="*" output="*">
@@ -223,7 +223,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -299,7 +299,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
             <device input="*" output="*">
@@ -373,7 +373,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -449,7 +449,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
             <device input="*" output="*">
@@ -523,7 +523,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -599,7 +599,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
             <device input="*" output="*">
@@ -673,7 +673,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -749,7 +749,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
             <device input="*" output="*">
@@ -823,7 +823,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -899,7 +899,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
             <device input="*" output="*">
@@ -973,7 +973,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -1049,7 +1049,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
             <device input="*" output="*">
@@ -1123,7 +1123,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -1199,7 +1199,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>
@@ -1275,7 +1275,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
             <device input="*" output="*">
@@ -1349,7 +1349,7 @@
                     <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
             </device>
         </scene>

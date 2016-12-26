@@ -1132,9 +1132,9 @@
     <ctl name="S3 OR PGA GAIN"
          value="0" />
     <ctl name="S1 OL PGA GAIN"
-         value="0" />
+         value="6" />
     <ctl name="S1 OR PGA GAIN"
-         value="0" />
+         value="6" />
   </path>
   <path name="media-main-mic">
     <ctl name="AUX PGA GAIN"
@@ -1154,9 +1154,9 @@
     <ctl name="S3 OR PGA GAIN"
          value="0" />
     <ctl name="S1 OL PGA GAIN"
-         value="0" />
+         value="5" />
     <ctl name="S1 OR PGA GAIN"
-         value="0" />
+         value="5" />
   </path>
   <path name="media-headset-mic">
     <ctl name="AUX PGA GAIN"
@@ -1781,7 +1781,7 @@
   <path name="modem0-nb-vol-3-none"></path>
   <path name="modem0-nb-vol-3-earpiece">
     <ctl name="S3 IL PGA GAIN"
-         value="248" />
+         value="246" />
   </path>
   <path name="modem0-nb-vol-3-speaker">
     <ctl name="S3 IL PGA GAIN"
@@ -1818,7 +1818,7 @@
   <path name="modem0-nb-vol-4-none"></path>
   <path name="modem0-nb-vol-4-earpiece">
     <ctl name="S3 IL PGA GAIN"
-         value="252" />
+         value="250" />
   </path>
   <path name="modem0-nb-vol-4-speaker">
     <ctl name="S3 IL PGA GAIN"
@@ -2003,7 +2003,7 @@
   <path name="modem0-wb-vol-3-none"></path>
   <path name="modem0-wb-vol-3-earpiece">
     <ctl name="S3 IL PGA GAIN"
-         value="248" />
+         value="246" />
   </path>
   <path name="modem0-wb-vol-3-speaker">
     <ctl name="S3 IL PGA GAIN"
@@ -2040,7 +2040,7 @@
   <path name="modem0-wb-vol-4-none"></path>
   <path name="modem0-wb-vol-4-earpiece">
     <ctl name="S3 IL PGA GAIN"
-         value="252" />
+         value="250" />
   </path>
   <path name="modem0-wb-vol-4-speaker">
     <ctl name="S3 IL PGA GAIN"
@@ -2225,7 +2225,7 @@
   <path name="modem1-nb-vol-3-none"></path>
   <path name="modem1-nb-vol-3-earpiece">
     <ctl name="S3 IL PGA GAIN"
-         value="248" />
+         value="246" />
   </path>
   <path name="modem1-nb-vol-3-speaker">
     <ctl name="S3 IL PGA GAIN"
@@ -2262,7 +2262,7 @@
   <path name="modem1-nb-vol-4-none"></path>
   <path name="modem1-nb-vol-4-earpiece">
     <ctl name="S3 IL PGA GAIN"
-         value="252" />
+         value="250" />
   </path>
   <path name="modem1-nb-vol-4-speaker">
     <ctl name="S3 IL PGA GAIN"
@@ -2447,7 +2447,7 @@
   <path name="modem1-wb-vol-3-none"></path>
   <path name="modem1-wb-vol-3-earpiece">
     <ctl name="S3 IL PGA GAIN"
-         value="248" />
+         value="246" />
   </path>
   <path name="modem1-wb-vol-3-speaker">
     <ctl name="S3 IL PGA GAIN"
@@ -2484,7 +2484,7 @@
   <path name="modem1-wb-vol-4-none"></path>
   <path name="modem1-wb-vol-4-earpiece">
     <ctl name="S3 IL PGA GAIN"
-         value="252" />
+         value="250" />
   </path>
   <path name="modem1-wb-vol-4-speaker">
     <ctl name="S3 IL PGA GAIN"
@@ -3107,7 +3107,7 @@
     <ctl name="HPR PGA MUTE"
          value="0" />
   </path>
-  <path name="mmi-audioloop-rec-submic-headphone" >
+  <path name="mmi-audioloop-rec-mic-headphone" >
     <ctl name="LINEL PGA GAIN"
          value="21" />
     <ctl name="LINEINL BOOST"
@@ -3147,4 +3147,16 @@
   <path name="mmi-shortcircuit-s2"></path>
   <path name="mmi-shortcircuit-s3"></path>
   <path name="mmi-shortcircuit-s4"></path>
+
+    <path name="cvaa-mute-allsound" >
+        <ctl name="S1 IL PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S1 IR PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S2 OL PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S2 OR PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S3 IL PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S3 IR PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S4 OL PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S4 OR PGA GAIN" value="136" />    <!-- -120db -->
+    </path>
+
 </mixer>

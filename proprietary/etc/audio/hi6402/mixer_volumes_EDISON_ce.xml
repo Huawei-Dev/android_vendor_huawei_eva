@@ -146,9 +146,9 @@
     <ctl name="S1 IR PGA GAIN"
          value="0" />
     <ctl name="HPL PGA GAIN"
-         value="12" />
+         value="13" />
     <ctl name="HPR PGA GAIN"
-         value="12" />
+         value="13" />
   </path>
   <path name="media-headset">
     <path name="media-headphone" />
@@ -3037,7 +3037,7 @@
     <ctl name="HPR PGA MUTE"
          value="0" />
   </path>
-  <path name="mmi-audioloop-rec-submic-headphone" >
+  <path name="mmi-audioloop-rec-mic-headphone" >
     <ctl name="LINEL PGA GAIN"
          value="21" />
     <ctl name="LINEINL BOOST"
@@ -3077,4 +3077,16 @@
   <path name="mmi-shortcircuit-s2"></path>
   <path name="mmi-shortcircuit-s3"></path>
   <path name="mmi-shortcircuit-s4"></path>
+
+    <path name="cvaa-mute-allsound" >
+        <ctl name="S1 IL PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S1 IR PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S2 OL PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S2 OR PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S3 IL PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S3 IR PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S4 OL PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S4 OR PGA GAIN" value="136" />    <!-- -120db -->
+    </path>
+
 </mixer>

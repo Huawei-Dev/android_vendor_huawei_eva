@@ -1491,4 +1491,13 @@
     <ctl name="S2 OL SRC MODE" value="0" />
   </path>
 
+  <path name="cvaa-mono-channel" >
+      <ctl name="MIXERL S1 MUX" value="SHARE MIXER" />
+      <ctl name="MIXERR S1 MUX" value="SHARE MIXER" />
+      <ctl name="SHARE MIXER S1L SWITCH" value="1" />
+      <ctl name="SHARE MIXER S1R SWITCH" value="1" />
+      <ctl name="MIXERL S1L MUX SWITCH" value="1" />
+      <ctl name="MIXERR S1R MUX SWITCH" value="1" />
+  </path>
+
 </mixer>

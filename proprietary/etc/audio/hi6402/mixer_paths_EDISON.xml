@@ -1393,6 +1393,7 @@
   </path>
 
   <path name="mmi-audioloop-mainmic2-headphone" >
+    <path name="media-earpiece" />
     <path name="main-mic2" />
     <path name="headphone" />
     <ctl name="ADC1L MUX" value="LINEINL" />
@@ -1568,7 +1569,7 @@
     <ctl name="AUDIO CAPTURE SWITCH SWITCH" value="1" />
   </path>
 
-  <path name="mmi-audioloop-rec-submic-headphone" >
+  <path name="mmi-audioloop-rec-mic-headphone" >
     <ctl name="HPL MUX" value="DACL" />
     <ctl name="HPR MUX" value="DACR" />
     <ctl name="HPDAC_I2V SWITCH" value="1" />
@@ -1616,6 +1617,15 @@
     <ctl name="S2 IR SRC MODE" value="1" />
     <ctl name="S2 OL SRC EN" value="1" />
     <ctl name="S2 OL SRC MODE" value="0" />
+  </path>
+
+  <path name="cvaa-mono-channel" >
+      <ctl name="MIXERL S1 MUX" value="SHARE MIXER" />
+      <ctl name="MIXERR S1 MUX" value="SHARE MIXER" />
+      <ctl name="SHARE MIXER S1L SWITCH" value="1" />
+      <ctl name="SHARE MIXER S1R SWITCH" value="1" />
+      <ctl name="MIXERL S1L MUX SWITCH" value="1" />
+      <ctl name="MIXERR S1R MUX SWITCH" value="1" />
   </path>
 
 </mixer>

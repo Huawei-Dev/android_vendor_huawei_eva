@@ -1972,4 +1972,15 @@
         <ctl name="AUX MIC BOOST" value="0" />
     </path>
 
+    <path name="cvaa-mute-allsound" >
+        <ctl name="S1 IL PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S1 IR PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S2 OL PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S2 OR PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S3 IL PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S3 IR PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S4 OL PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S4 OR PGA GAIN" value="136" />    <!-- -120db -->
+    </path>
+
 </mixer>

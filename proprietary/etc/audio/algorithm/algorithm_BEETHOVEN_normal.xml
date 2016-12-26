@@ -5,20 +5,20 @@
             <device input="*" output="*" default="true">
                 <algorithm name="HDR">
                     <parameter key="Enable" value="false"/>
-                    <parameter key="MainMicGainMindB" value="12"/>
+                    <parameter key="MainMicGainMindB" value="0"/>
                     <parameter key="MainMicGainMaxdB" value="36"/>
-                    <parameter key="MainMicGainInitdB" value="36"/>
+                    <parameter key="MainMicGainInitdB" value="32"/>
                     <parameter key="MainMicGainStepdB" value="2"/>
                     <parameter key="MainMicAttackTime" value="20"/>
-                    <parameter key="MainMicReleaseTime" value="200"/>
+                    <parameter key="MainMicReleaseTime" value="1300"/>
                     <parameter key="MainMicHdrFlag" value="1"/>
                     <parameter key="MainMicRecordMode" value="1"/>
-                    <parameter key="SubMicGainMindB" value="12"/>
+                    <parameter key="SubMicGainMindB" value="0"/>
                     <parameter key="SubMicGainMaxdB" value="36"/>
-                    <parameter key="SubMicGainInitdB" value="36"/>
+                    <parameter key="SubMicGainInitdB" value="32"/>
                     <parameter key="SubMicGainStepdB" value="2"/>
                     <parameter key="SubMicAttackTime" value="20"/>
-                    <parameter key="SubMicReleaseTime" value="200"/>
+                    <parameter key="SubMicReleaseTime" value="1300"/>
                     <parameter key="SubMicHdrFlag" value="1"/>
                     <parameter key="SubMicRecordMode" value="1"/>
                 </algorithm>
@@ -54,7 +54,7 @@
                     <parameter key="SubMicOutputMode" value="0"/>
                 </algorithm>
                 <algorithm name="RNR">
-                    <parameter key="Enable" value="false" />
+                    <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
                     <parameter key="MaxNoiseReduceLevel" value="13" />
                     <parameter key="UseHighPassFilt" value="1" />
@@ -70,7 +70,7 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
                     <parameter key="MicChannelExchange" value="false"/>
@@ -86,20 +86,20 @@
             <device input="in_builtin_mic" output="*">
                 <algorithm name="HDR">
                     <parameter key="Enable" value="true"/>
-                    <parameter key="MainMicGainMindB" value="12"/>
+                    <parameter key="MainMicGainMindB" value="0"/>
                     <parameter key="MainMicGainMaxdB" value="36"/>
-                    <parameter key="MainMicGainInitdB" value="36"/>
+                    <parameter key="MainMicGainInitdB" value="32"/>
                     <parameter key="MainMicGainStepdB" value="2"/>
                     <parameter key="MainMicAttackTime" value="20"/>
-                    <parameter key="MainMicReleaseTime" value="200"/>
+                    <parameter key="MainMicReleaseTime" value="1300"/>
                     <parameter key="MainMicHdrFlag" value="1"/>
                     <parameter key="MainMicRecordMode" value="1"/>
-                    <parameter key="SubMicGainMindB" value="12"/>
+                    <parameter key="SubMicGainMindB" value="0"/>
                     <parameter key="SubMicGainMaxdB" value="36"/>
-                    <parameter key="SubMicGainInitdB" value="36"/>
+                    <parameter key="SubMicGainInitdB" value="32"/>
                     <parameter key="SubMicGainStepdB" value="2"/>
                     <parameter key="SubMicAttackTime" value="20"/>
-                    <parameter key="SubMicReleaseTime" value="200"/>
+                    <parameter key="SubMicReleaseTime" value="1300"/>
                     <parameter key="SubMicHdrFlag" value="1"/>
                     <parameter key="SubMicRecordMode" value="1"/>
                 </algorithm>
@@ -137,21 +137,21 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="1" />
-                    <parameter key="MaxNoiseReduceLevel" value="13" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
                     <parameter key="NoiseThreshold" value="-40" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
                 <algorithm name="WNR">
-                    <parameter key="Enable" value="false"/>
+                    <parameter key="Enable" value="true"/>
                     <parameter key="Mode" value="1"/>
                 </algorithm>
                 <algorithm name="STEREOENHANCEMENT">
-                    <parameter key="Enable" value="false"/>
+                    <parameter key="Enable" value="true"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="139"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
                     <parameter key="MicChannelExchange" value="false"/>
@@ -216,9 +216,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="1" />
-                    <parameter key="MaxNoiseReduceLevel" value="14" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-45" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -233,7 +233,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -297,9 +297,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="1" />
-                    <parameter key="MaxNoiseReduceLevel" value="14" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-45" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -314,7 +314,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -376,9 +376,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="1" />
-                    <parameter key="MaxNoiseReduceLevel" value="14" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-45" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -393,7 +393,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -459,7 +459,7 @@
                     <parameter key="NoiseReduceMode" value="1" />
                     <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-40" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -474,7 +474,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -538,7 +538,7 @@
                     <parameter key="NoiseReduceMode" value="1" />
                     <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-40" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -553,7 +553,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -634,7 +634,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -696,9 +696,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="0" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="53" />
                 </algorithm>
@@ -713,7 +713,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -777,9 +777,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="0" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="53" />
                 </algorithm>
@@ -794,7 +794,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -856,9 +856,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="0" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="53" />
                 </algorithm>
@@ -873,7 +873,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -937,9 +937,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -954,7 +954,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1016,9 +1016,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -1033,7 +1033,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1097,9 +1097,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="false" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -1114,7 +1114,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1176,9 +1176,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="false" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -1193,7 +1193,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1257,9 +1257,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -1274,7 +1274,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1338,9 +1338,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="false" />
                     <parameter key="NoiseReduceMode" value="1" />
-                    <parameter key="MaxNoiseReduceLevel" value="13" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-40" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -1355,7 +1355,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1417,9 +1417,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="false" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="13" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-40" />
+                    <parameter key="NoiseThreshold" value="-30" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -1434,7 +1434,7 @@
                     <parameter key="MicDistance" value="145"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>

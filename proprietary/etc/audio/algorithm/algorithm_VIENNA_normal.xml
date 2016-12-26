@@ -73,7 +73,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -154,7 +154,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -233,7 +233,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -314,7 +314,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -393,7 +393,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -474,7 +474,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -553,7 +553,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -634,7 +634,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -713,7 +713,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -794,7 +794,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -873,7 +873,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -954,7 +954,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1033,7 +1033,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1114,7 +1114,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1193,7 +1193,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1274,7 +1274,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1355,7 +1355,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1434,7 +1434,7 @@
                     <parameter key="MicDistance" value="152"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>

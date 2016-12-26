@@ -24,10 +24,10 @@
     <ctl name="DACL PGA GAIN" value="247" />
     <ctl name="DACR PGA GAIN" value="247" />
 
-    <ctl name="LINEL PGA GAIN" value="0" />
-    <ctl name="LINER PGA GAIN" value="0" />
-    <ctl name="AUX PGA GAIN" value="0" />
-    <ctl name="MAIN PGA GAIN" value="0" />
+    <ctl name="LINEL PGA GAIN" value="14" />
+    <ctl name="LINER PGA GAIN" value="14" />
+    <ctl name="AUX PGA GAIN" value="18" />
+    <ctl name="MAIN PGA GAIN" value="18" />
 
     <ctl name="MAIN MIC BOOST" value="0" />
     <ctl name="AUX MIC BOOST" value="0" />
@@ -77,6 +77,12 @@
     <ctl name="MIXERR GAIN3" value="3" />
     <ctl name="MIXERR GAIN4" value="3" />
 
+    <ctl name="AK4376 HP-Amp Analog Volume" value="11" />
+    <ctl name="AK4376 Digital Output VolumeL" value="11" />
+    <ctl name="AK4376 Digital Output VolumeR" value="11" />
+    <ctl name="AK4376 DAC-ADJ1 Gain" value="64" />
+    <ctl name="AK4376 DAC-ADJ2 Gain" value="0" />
+
     <!-- Playback paths -->
     <path name="media-earpiece" >
         <ctl name="S1 IL PGA GAIN" value="0" />
@@ -86,6 +92,8 @@
     <path name="media-speaker" >
         <ctl name="S1 IL PGA GAIN" value="0" />
         <ctl name="S1 IR PGA GAIN" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="0" />
     </path>
 
     <path name="media-headphone" >
@@ -93,6 +101,14 @@
         <ctl name="S1 IR PGA GAIN" value="0" />
         <ctl name="HPL PGA GAIN" value="18" />
         <ctl name="HPR PGA GAIN" value="18" />
+    </path>
+
+    <path name="media-headset-extern-hifi" >
+        <ctl name="AK4376 DAC-ADJ1 Gain" value="32" />
+        <ctl name="AK4376 DAC-ADJ2 Gain" value="7" />
+        <ctl name="AK4376 HP-Amp Analog Volume" value="13" />
+        <ctl name="AK4376 Digital Output VolumeL" value="17" />
+        <ctl name="AK4376 Digital Output VolumeR" value="17" />
     </path>
 
     <path name="media-headset" >
@@ -157,6 +173,8 @@
         <ctl name="S1 OR PGA GAIN" value="0" />
         <ctl name="S3 OL PGA GAIN" value="0" />
         <ctl name="S3 OR PGA GAIN" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="136" />
     </path>
 
     <path name="communication-headset" >
@@ -201,6 +219,8 @@
         <ctl name="MAIN MIC BOOST" value="0" />
         <ctl name="AUX MIC BOOST" value="0" />
         <ctl name="LINEINL BOOST" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="0" />
         <ctl name="S1 OL PGA GAIN" value="0" />
         <ctl name="S1 OR PGA GAIN" value="0" />
         <ctl name="S3 OL PGA GAIN" value="0" />
@@ -325,6 +345,8 @@
         <ctl name="S1 OR PGA GAIN" value="0" />
         <ctl name="S3 OL PGA GAIN" value="0" />
         <ctl name="S3 OR PGA GAIN" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="136" />
     </path>
 
     <path name="call-m0-headphone" >
@@ -402,22 +424,22 @@
         <ctl name="S1 IR PGA GAIN" value="250" />
     </path>
 
-    <path name="call-m0-speaker-earpiece" >
+    <path name="dup-call-m0-speaker-earpiece" >
         <path name="call-m0-earpiece" />
         <path name="media-speaker-earpiece" />
     </path>
 
-    <path name="call-m0-speaker-headphone" >
+    <path name="dup-call-m0-speaker-headphone" >
         <path name="call-m0-headphone" />
         <path name="media-speaker-headset" />
     </path>
 
-    <path name="call-m0-speaker-headset" >
+    <path name="dup-call-m0-speaker-headset" >
         <path name="call-m0-headset" />
         <path name="media-speaker-headset" />
     </path>
 
-    <path name="call-m0-speaker-bt-sco-headset" >
+    <path name="dup-call-m0-speaker-bt-sco-headset" >
         <path name="call-m0-bt-sco-headset" />
         <path name="media-speaker" />
     </path>
@@ -446,6 +468,8 @@
         <ctl name="S1 OR PGA GAIN" value="0" />
         <ctl name="S3 OL PGA GAIN" value="0" />
         <ctl name="S3 OR PGA GAIN" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="136" />
     </path>
 
     <path name="call-m1-headphone" >
@@ -513,22 +537,22 @@
         <ctl name="S1 IR PGA GAIN" value="250" />
     </path>
 
-    <path name="call-m1-speaker-earpiece" >
+    <path name="dup-call-m1-speaker-earpiece" >
         <path name="call-m1-earpiece" />
         <path name="media-speaker-earpiece" />
     </path>
 
-    <path name="call-m1-speaker-headphone" >
+    <path name="dup-call-m1-speaker-headphone" >
         <path name="call-m1-headphone" />
         <path name="media-speaker-headset" />
     </path>
 
-    <path name="call-m1-speaker-headset" >
+    <path name="dup-call-m1-speaker-headset" >
         <path name="call-m1-headset" />
         <path name="media-speaker-headset" />
     </path>
 
-    <path name="call-m1-speaker-bt-sco-headset" >
+    <path name="dup-call-m1-speaker-bt-sco-headset" >
         <path name="call-m1-bt-sco-headset" />
         <path name="media-speaker" />
     </path>
@@ -557,6 +581,8 @@
         <ctl name="S1 OR PGA GAIN" value="0" />
         <ctl name="S3 OL PGA GAIN" value="0" />
         <ctl name="S3 OR PGA GAIN" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="136" />
     </path>
 
     <path name="call-wb-m0-headset" >
@@ -616,6 +642,8 @@
         <ctl name="S1 OR PGA GAIN" value="0" />
         <ctl name="S3 OL PGA GAIN" value="0" />
         <ctl name="S3 OR PGA GAIN" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="136" />
     </path>
 
     <path name="call-wb-m1-headset" >
@@ -681,42 +709,42 @@
         <ctl name="S1 IR PGA GAIN" value="250" />
     </path>
 
-    <path name="call-wb-m0-speaker-earpiece" >
+    <path name="dup-call-wb-m0-speaker-earpiece" >
         <path name="call-wb-m0-earpiece" />
         <path name="media-speaker-earpiece" />
     </path>
 
-    <path name="call-wb-m0-speaker-headphone" >
+    <path name="dup-call-wb-m0-speaker-headphone" >
         <path name="call-wb-m0-headphone" />
         <path name="media-speaker-headset" />
     </path>
 
-    <path name="call-wb-m0-speaker-headset" >
+    <path name="dup-call-wb-m0-speaker-headset" >
         <path name="call-wb-m0-headset" />
         <path name="media-speaker-headset" />
     </path>
 
-    <path name="call-wb-m0-speaker-bt-sco-headset" >
+    <path name="dup-call-wb-m0-speaker-bt-sco-headset" >
         <path name="call-wb-m0-bt-sco-headset" />
         <path name="media-speaker" />
     </path>
 
-    <path name="call-wb-m1-speaker-earpiece" >
+    <path name="dup-call-wb-m1-speaker-earpiece" >
         <path name="call-wb-m1-earpiece" />
         <path name="media-speaker-earpiece" />
     </path>
 
-    <path name="call-wb-m1-speaker-headset" >
+    <path name="dup-call-wb-m1-speaker-headset" >
         <path name="call-wb-m1-headset" />
         <path name="media-speaker-headset" />
     </path>
 
-    <path name="call-wb-m1-speaker-headphone" >
+    <path name="dup-call-wb-m1-speaker-headphone" >
         <path name="call-wb-m1-headphone" />
         <path name="media-speaker-headset" />
     </path>
 
-    <path name="call-wb-m1-speaker-bt-sco-headset" >
+    <path name="dup-call-wb-m1-speaker-bt-sco-headset" >
         <path name="call-wb-m1-bt-sco-headset" />
         <path name="media-speaker" />
     </path>
@@ -782,7 +810,7 @@
 
     <path name="media-headset-mic" >
         <ctl name="AUX PGA GAIN" value="18" />
-        <ctl name="MAIN PGA GAIN" value="19" />
+        <ctl name="MAIN PGA GAIN" value="18" />
         <ctl name="LINEL PGA GAIN" value="23"/>
         <ctl name="MAIN MIC BOOST" value="0" />
         <ctl name="AUX MIC BOOST" value="0" />
@@ -1998,6 +2026,28 @@
         <ctl name="LOR PGA MUTE" value="0" />
     </path>
 
+    <path name="mmi-test-leftspeaker" >
+        <ctl name="S1 IL PGA GAIN" value="0" />
+        <ctl name="S1 IR PGA GAIN" value="136" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="0" />
+        <ctl name="LOL PGA GAIN" value="14" />
+        <ctl name="LOL PGA MUTE" value="0" />
+        <ctl name="LOR PGA GAIN" value="14" />
+        <ctl name="LOR PGA MUTE" value="0" />
+    </path>
+
+    <path name="mmi-test-rightspeaker" >
+        <ctl name="S1 IL PGA GAIN" value="136" />
+        <ctl name="S1 IR PGA GAIN" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="0" />
+        <ctl name="LOL PGA GAIN" value="14" />
+        <ctl name="LOL PGA MUTE" value="0" />
+        <ctl name="LOR PGA GAIN" value="14" />
+        <ctl name="LOR PGA MUTE" value="0" />
+    </path>
+
     <path name="mmi-test-headphone" >
         <ctl name="S1 IL PGA GAIN" value="0" />
         <ctl name="S1 IR PGA GAIN" value="0" />
@@ -2005,6 +2055,14 @@
         <ctl name="HPL PGA MUTE" value="0" />
         <ctl name="HPR PGA GAIN" value="14" />
         <ctl name="HPR PGA MUTE" value="0" />
+    </path>
+
+    <path name="mmi-test-extern-headset-hifi" >
+        <ctl name="AK4376 DAC-ADJ1 Gain" value="32" />
+        <ctl name="AK4376 DAC-ADJ2 Gain" value="7" />
+        <ctl name="AK4376 HP-Amp Analog Volume" value="13" />
+        <ctl name="AK4376 Digital Output VolumeL" value="17" />
+        <ctl name="AK4376 Digital Output VolumeR" value="17" />
     </path>
 
     <path name="mmi-test-mainmic" >
@@ -2142,6 +2200,28 @@
         <ctl name="LOR PGA MUTE" value="0" />
     </path>
 
+    <path name="mmi-audioloop-hsmic-leftspeaker" >
+        <ctl name="MAIN PGA GAIN" value="5" />
+        <ctl name="MAIN MIC BOOST" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="0" />
+        <ctl name="S4 OR PGA GAIN" value="136" />
+        <ctl name="LOL PGA GAIN" value="16" />
+        <ctl name="LOL PGA MUTE" value="0" />
+        <ctl name="LOR PGA GAIN" value="16" />
+        <ctl name="LOR PGA MUTE" value="0" />
+    </path>
+
+    <path name="mmi-audioloop-hsmic-rightspeaker" >
+        <ctl name="MAIN PGA GAIN" value="5" />
+        <ctl name="MAIN MIC BOOST" value="0" />
+        <ctl name="S4 OL PGA GAIN" value="136" />
+        <ctl name="S4 OR PGA GAIN" value="0" />
+        <ctl name="LOL PGA GAIN" value="16" />
+        <ctl name="LOL PGA MUTE" value="0" />
+        <ctl name="LOR PGA GAIN" value="16" />
+        <ctl name="LOR PGA MUTE" value="0" />
+    </path>
+
     <path name="mmi-lineinl-receiver-rec" >
         <ctl name="S1 IL PGA GAIN" value="0" />
         <ctl name="S1 IR PGA GAIN" value="0" />
@@ -2235,4 +2315,16 @@
     </path>
     <path name="mmi-shortcircuit-s4" >
     </path>
+
+    <path name="cvaa-mute-allsound" >
+        <ctl name="S1 IL PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S1 IR PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S2 OL PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S2 OR PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S3 IL PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S3 IR PGA GAIN" value="136" />     <!-- -120db -->
+        <ctl name="S4 OL PGA GAIN" value="136" />    <!-- -120db -->
+        <ctl name="S4 OR PGA GAIN" value="136" />    <!-- -120db -->
+    </path>
+
 </mixer>

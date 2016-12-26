@@ -25,10 +25,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -73,7 +84,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -106,10 +117,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -154,7 +176,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -185,10 +207,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -233,7 +266,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -266,10 +299,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -314,7 +358,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -345,10 +389,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -393,7 +448,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -426,10 +481,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -474,7 +540,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -505,10 +571,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -553,7 +630,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -586,10 +663,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -617,9 +705,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="12" />
                     <parameter key="UseHighPassFilt" value="0" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-40" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="53" />
                 </algorithm>
@@ -634,7 +722,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -665,10 +753,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -696,9 +795,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="12" />
                     <parameter key="UseHighPassFilt" value="0" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-40" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="53" />
                 </algorithm>
@@ -713,7 +812,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -746,10 +845,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -777,9 +887,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="12" />
                     <parameter key="UseHighPassFilt" value="0" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-40" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="53" />
                 </algorithm>
@@ -794,7 +904,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -825,10 +935,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -856,9 +977,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="12" />
                     <parameter key="UseHighPassFilt" value="0" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-40" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="53" />
                 </algorithm>
@@ -873,7 +994,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -906,10 +1027,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="true"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -937,9 +1069,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="12" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-40" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -954,7 +1086,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -985,10 +1117,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -1016,9 +1159,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="12" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-40" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -1033,7 +1176,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1066,10 +1209,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="true"/>
                     <parameter key="OmniDirection" value="true"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -1114,7 +1268,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1145,10 +1299,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -1193,7 +1358,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1226,10 +1391,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="true"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -1257,9 +1433,9 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="12" />
                     <parameter key="UseHighPassFilt" value="1" />
-                    <parameter key="NoiseThreshold" value="-55" />
+                    <parameter key="NoiseThreshold" value="-40" />
                     <parameter key="EnableNoiseBurst" value="1" />
                     <parameter key="VadThreshold" value="50" />
                 </algorithm>
@@ -1274,7 +1450,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1307,10 +1483,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -1355,7 +1542,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1386,10 +1573,21 @@
                 <algorithm name="DR">
                     <parameter key="Enable" value="false"/>
                     <parameter key="OmniDirection" value="false"/>
-                    <parameter key="MicDistance" value="160,34,157"/>
+                    <parameter key="MicDistance" value="167,43,163"/>
                     <parameter key="MicBlock" value="0,1,1,2,10,49"/>
                     <parameter key="MicFail" value="1,1,1,-6,10,49"/>
                     <parameter key="AdrGain" value="11"/>
+                    <parameter key="SslInterpLen" value="24" />
+                    <parameter key="AdrInterpLen" value="24" />
+                    <parameter key="Ssl53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl53YInterp" value="5748, 7420, 8180, 8070, 7260, 5340, 4055, 2738, -10, -2805, -5180, -6490, -7562, -7535, -6710, -5085, -2252, -1082, 305, 3275, 5748, 7420, 8180, 8070" />
+                    <parameter key="Ssl54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Ssl54YInterp" value="-1202, -235, 655, 1375, 2025, 2498, 2688, 2668, 2615, 2360, 1760, 1080, 395, -636, -1335, -1958, -2205, -2210, -2290, -1953, -1202, -235, 655, 1375" />
+                    <parameter key="Adr53XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr53YInterp" value="5776, 7135, 8085, 7868, 7098, 5022, 2798, 1122, -76, -2916, -5324, -6448, -7458, -7318, -6458, -5042, -2698, -1123, 184, 3114, 5776, 7135, 8085, 7868" />
+                    <parameter key="Adr54XInterp" value="-38, -18, 2, 22, 42, 62, 72, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 272, 282, 302, 322, 342, 362, 382" />
+                    <parameter key="Adr54YInterp" value="-1152, -262, 572, 1387, 2024, 2628, 2888, 2853, 2712, 2292, 1888, 1106, -100, -686, -1268, -1798, -2098, -2168, -2132, -1928, -1152, -262, 572, 1387" />
+                    <parameter key="Compatibility" value="1, 182, 1, 178, 0, 0" />
                 </algorithm>
                 <algorithm name="LDR">
                     <parameter key="Enable" value="false"/>
@@ -1434,7 +1632,7 @@
                     <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>

@@ -70,10 +70,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -151,13 +151,13 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
-                    <parameter key="Enable" value="false"/>
+                    <parameter key="Enable" value="true"/>
                     <parameter key="coef_48K" value="-0.0041084208646031215, -0.0099997298836820517, -0.014404212558307478, -0.0095412108198417323, 0.011518705743028684, 0.049164047468714112, 0.094390133383369254, 0.13157866126158405, 0.50078261406920577, 0.13157866126158405, 0.094390133383369254, 0.049164047468714112, 0.011518705743028684, -0.0095412108198417323, -0.014404212558307478, -0.0099997298836820517, -0.0041084208646031215"/>
                     <parameter key="coef_16K" value="-0.0056817620839079309, 0.0021418612519652166, -0.041082726861886847, 0.15834029233429456, 0.768446884814319, 0.15834029233429456, -0.041082726861886847, 0.0021418612519652166, -0.0056817620839079309"/>
                 </algorithm>
@@ -230,10 +230,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -311,10 +311,10 @@
                     <parameter key="Enable" value="true"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -390,10 +390,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -471,10 +471,10 @@
                     <parameter key="Enable" value="true"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -550,10 +550,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -566,7 +566,7 @@
             <device input="in_builtin_mic" output="*">
                 <algorithm name="HDR">
                     <parameter key="Enable" value="true"/>
-                    <parameter key="MainMicGainMindB" value="18"/>
+                    <parameter key="MainMicGainMindB" value="12"/>
                     <parameter key="MainMicGainMaxdB" value="36"/>
                     <parameter key="MainMicGainInitdB" value="36"/>
                     <parameter key="MainMicGainStepdB" value="2"/>
@@ -617,11 +617,11 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="0" />
                     <parameter key="NoiseThreshold" value="-55" />
                     <parameter key="EnableNoiseBurst" value="1" />
-                    <parameter key="VadThreshold" value="53" />
+                    <parameter key="VadThreshold" value="45" />
                 </algorithm>
                 <algorithm name="WNR">
                     <parameter key="Enable" value="false"/>
@@ -631,10 +631,10 @@
                     <parameter key="Enable" value="true"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -645,7 +645,7 @@
             <device input="*" output="*">
                 <algorithm name="HDR">
                     <parameter key="Enable" value="true"/>
-                    <parameter key="MainMicGainMindB" value="18"/>
+                    <parameter key="MainMicGainMindB" value="12"/>
                     <parameter key="MainMicGainMaxdB" value="36"/>
                     <parameter key="MainMicGainInitdB" value="36"/>
                     <parameter key="MainMicGainStepdB" value="2"/>
@@ -696,11 +696,11 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="0" />
                     <parameter key="NoiseThreshold" value="-55" />
                     <parameter key="EnableNoiseBurst" value="1" />
-                    <parameter key="VadThreshold" value="53" />
+                    <parameter key="VadThreshold" value="45" />
                 </algorithm>
                 <algorithm name="WNR">
                     <parameter key="Enable" value="false"/>
@@ -710,10 +710,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -777,11 +777,11 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="0" />
                     <parameter key="NoiseThreshold" value="-55" />
                     <parameter key="EnableNoiseBurst" value="1" />
-                    <parameter key="VadThreshold" value="53" />
+                    <parameter key="VadThreshold" value="45" />
                 </algorithm>
                 <algorithm name="WNR">
                     <parameter key="Enable" value="false"/>
@@ -791,10 +791,10 @@
                     <parameter key="Enable" value="true"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -856,11 +856,11 @@
                 <algorithm name="RNR">
                     <parameter key="Enable" value="true" />
                     <parameter key="NoiseReduceMode" value="0" />
-                    <parameter key="MaxNoiseReduceLevel" value="10" />
+                    <parameter key="MaxNoiseReduceLevel" value="15" />
                     <parameter key="UseHighPassFilt" value="0" />
                     <parameter key="NoiseThreshold" value="-55" />
                     <parameter key="EnableNoiseBurst" value="1" />
-                    <parameter key="VadThreshold" value="53" />
+                    <parameter key="VadThreshold" value="45" />
                 </algorithm>
                 <algorithm name="WNR">
                     <parameter key="Enable" value="false"/>
@@ -870,10 +870,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -951,10 +951,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1030,10 +1030,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1111,10 +1111,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1190,10 +1190,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1271,10 +1271,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="true"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>
@@ -1288,8 +1288,8 @@
                 <algorithm name="HDR">
                     <parameter key="Enable" value="true"/>
                     <parameter key="MainMicGainMindB" value="18"/>
-                    <parameter key="MainMicGainMaxdB" value="36"/>
-                    <parameter key="MainMicGainInitdB" value="36"/>
+                    <parameter key="MainMicGainMaxdB" value="30"/>
+                    <parameter key="MainMicGainInitdB" value="30"/>
                     <parameter key="MainMicGainStepdB" value="2"/>
                     <parameter key="MainMicAttackTime" value="20"/>
                     <parameter key="MainMicReleaseTime" value="200"/>
@@ -1352,10 +1352,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="false"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="true"/>
@@ -1367,8 +1367,8 @@
                 <algorithm name="HDR">
                     <parameter key="Enable" value="true"/>
                     <parameter key="MainMicGainMindB" value="18"/>
-                    <parameter key="MainMicGainMaxdB" value="36"/>
-                    <parameter key="MainMicGainInitdB" value="36"/>
+                    <parameter key="MainMicGainMaxdB" value="30"/>
+                    <parameter key="MainMicGainInitdB" value="30"/>
                     <parameter key="MainMicGainStepdB" value="2"/>
                     <parameter key="MainMicAttackTime" value="20"/>
                     <parameter key="MainMicReleaseTime" value="200"/>
@@ -1431,10 +1431,10 @@
                     <parameter key="Enable" value="false"/>
                     <parameter key="HPEhanceEnable" value="false"/>
                     <parameter key="HPGain" value="0.8"/>
-                    <parameter key="MicDistance" value="145"/>
+                    <parameter key="MicDistance" value="157"/>
                     <parameter key="LeftChannelDelay" value="0"/>
                     <parameter key="RightChannelDelay" value="0"/>
-                    <parameter key="MicChannelExchange" value="false"/>
+                    <parameter key="MicChannelExchange" value="true"/>
                 </algorithm>
                 <algorithm name="FIR">
                     <parameter key="Enable" value="false"/>

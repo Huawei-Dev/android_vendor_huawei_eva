@@ -146,6 +146,16 @@
   <ctl name="BTL MUX" value="ADC0L" />
   <ctl name="APR MUX" value="ADC0R" />
   <ctl name="APL MUX" value="ADC0L" />
+  <ctl name="HIFI SWTICH VDD EN" value="ON" />
+  <ctl name="HIFI SWTICH DIR" value="ON" />
+  <ctl name="HIFI SWTICH SEL" value="ON" />
+  <ctl name="HIFI SWTICH ACDC" value="ON" />
+  <ctl name="HIFI SWTICH OPEN" value="OFF" />
+  <ctl name="AK4376 BICK Frequency Select" value="48fs" />
+  <ctl name="AK4376 HPL Mixer LDACL" value="0" />
+  <ctl name="AK4376 HPR Mixer RDACR" value="0" />
+  <ctl name="AK4376 VDD Power_Off Control" value="ON" />
+  <ctl name="AK4376 PLL MCKI Frequency" value="9.6MHz" />
 
   <!-- PROC COMMON -->
   <path name="fm-digital" >
@@ -160,13 +170,10 @@
 
   <!-- OUT COMMON -->
   <path name="earpiece" >
-      <ctl name="S4 IF CLK EN" value="1" />
-      <ctl name="M1L MUX" value="DACL_48" />
-      <ctl name="M1R MUX" value="DACR_48" />
-      <ctl name="S4 OL SWITCH SWITCH" value="1" />
-      <ctl name="S4 OR SWITCH SWITCH" value="1" />
-      <ctl name="SP IL SWITCH SWITCH" value="1" />
-      <ctl name="SP IR SWITCH SWITCH" value="1" />
+      <ctl name="EP MUX" value="DACSL" />
+      <ctl name="DACSL MIXER L SWITCH" value="1" />
+      <ctl name="DACSL MIXER R SWITCH" value="1" />
+      <ctl name="EP SWITCH SWITCH" value="1" />
   </path>
 
   <path name="speaker" >
@@ -190,9 +197,12 @@
   </path>
 
   <path name="headphone" >
+      <ctl name="HIFI SWTICH SEL" value="ON" />
+      <ctl name="HIFI SWTICH OPEN" value="CODEC_ON" />
       <ctl name="HPL MUX" value="DACL" />
       <ctl name="HPR MUX" value="DACR" />
       <ctl name="HPDAC_I2V SWITCH" value="1" />
+      <ctl name="AK4376 VDD Power_Off Control" value="OFF" />
   </path>
 
   <path name="headset" >
@@ -356,6 +366,16 @@
     <ctl name="HPDAC_I2V SWITCH" value="1" />
   </path>
 
+  <path name="media-headset-extern-hifi" >
+      <ctl name="HIFI SWTICH SEL" value="OFF" />
+      <ctl name="HIFI SWTICH OPEN" value="HIFI_ON" />
+      <ctl name="AK4376 PLL MCKI Frequency" value="19.2MHz" />
+      <ctl name="AK4376 BICK Frequency Select" value="64fs" />
+      <ctl name="AK4376 HPL Mixer LDACL" value="1" />
+      <ctl name="AK4376 HPR Mixer RDACR" value="1" />
+      <ctl name="AK4376 VDD Power_Off Control" value="OFF" />
+  </path>
+
   <path name="media-headset" >
     <path name="audio-play" />
     <path name="headset" />
@@ -374,14 +394,12 @@
   </path>
 
   <path name="media-speaker-headset" >
-    <ctl name="HPDAC_I2V SWITCH" value="1" />
     <path name="audio-play" />
     <path name="force-speaker" />
     <path name="headset" />
   </path>
 
   <path name="media-speaker-headphone" >
-    <ctl name="HPDAC_I2V SWITCH" value="1" />
     <path name="audio-play" />
     <path name="force-speaker" />
     <path name="headphone" />
@@ -477,7 +495,7 @@
   
   <path name="dup-media-fm-speaker-earpiece" >
     <path name="audio-play" />
-    <path name="fm-digital" />
+    <path name="force-speaker" />
     <path name="earpiece" />
   </path>
 
@@ -627,25 +645,25 @@
     <path name="audio-play" />
   </path>
 
-  <path name="call-m0-speaker-earpiece" >
+  <path name="dup-call-m0-speaker-earpiece" >
     <path name="call-m0-earpiece" />
     <path name="audio-play" />
     <path name="force-speaker" />
   </path>
 
-  <path name="call-m0-speaker-headphone" > 
+  <path name="dup-call-m0-speaker-headphone" > 
     <path name="call-m0-headphone" />  
     <path name="audio-play" />
     <path name="force-speaker" />
   </path>
 
-  <path name="call-m0-speaker-headset" >
+  <path name="dup-call-m0-speaker-headset" >
     <path name="call-m0-headset" />
     <path name="audio-play" />
     <path name="force-speaker" />
   </path>
 
-  <path name="call-m0-speaker-bt-sco-headset" >
+  <path name="dup-call-m0-speaker-bt-sco-headset" >
     <path name="call-m0-bt-sco-headset" />
     <path name="audio-play" />
     <path name="force-speaker" />
@@ -691,20 +709,20 @@
     <path name="dup-call-m0-bt-sco-headset" />
   </path>
 
-  <path name="call-m1-speaker-earpiece" >
-    <path name="call-m0-speaker-earpiece" />
+  <path name="dup-call-m1-speaker-earpiece" >
+    <path name="dup-call-m0-speaker-earpiece" />
   </path>
 
-  <path name="call-m1-speaker-headphone" >
-    <path name="call-m0-speaker-headphone" />
+  <path name="dup-call-m1-speaker-headphone" >
+    <path name="dup-call-m0-speaker-headphone" />
   </path>
 
-  <path name="call-m1-speaker-headset" >
-    <path name="call-m0-speaker-headset" />
+  <path name="dup-call-m1-speaker-headset" >
+    <path name="dup-call-m0-speaker-headset" />
   </path>
 
-  <path name="call-m1-speaker-bt-sco-headset" >
-    <path name="call-m0-speaker-bt-sco-headset" />
+  <path name="dup-call-m1-speaker-bt-sco-headset" >
+    <path name="dup-call-m0-speaker-bt-sco-headset" />
   </path>
 
   <path name="call-wb-m0-earpiece" >
@@ -782,41 +800,40 @@
     <path name="audio-play" />
   </path>
 
-  <path name="call-wb-m0-speaker-earpiece" >
+  <path name="dup-call-wb-m0-speaker-earpiece" >
     <path name="dup-call-wb-m0-earpiece" />
-    <ctl name="MDM MUX" value="S1 IL" />
     <path name="force-speaker" />
   </path>
 
-  <path name="call-wb-m0-speaker-headphone" >
+  <path name="dup-call-wb-m0-speaker-headphone" >
     <path name="dup-call-wb-m0-headphone" />
     <path name="force-speaker" />
   </path>
 
-  <path name="call-wb-m0-speaker-headset" >
+  <path name="dup-call-wb-m0-speaker-headset" >
     <path name="dup-call-wb-m0-headset" />
     <path name="force-speaker" />
   </path>
 
-  <path name="call-wb-m0-speaker-bt-sco-headset" >
+  <path name="dup-call-wb-m0-speaker-bt-sco-headset" >
     <path name="dup-call-wb-m0-bt-sco-headset" />
     <path name="force-speaker" />
   </path>
 
-  <path name="call-wb-m1-speaker-earpiece" >
-    <path name="call-wb-m0-speaker-earpiece" />
+  <path name="dup-call-wb-m1-speaker-earpiece" >
+    <path name="dup-call-wb-m0-speaker-earpiece" />
   </path>
 
-  <path name="call-wb-m1-speaker-headset" >
-    <path name="call-wb-m0-speaker-headset" />
+  <path name="dup-call-wb-m1-speaker-headset" >
+    <path name="dup-call-wb-m0-speaker-headset" />
   </path>
 
-  <path name="call-wb-m1-speaker-headphone" >
-    <path name="call-wb-m0-speaker-headphone" />
+  <path name="dup-call-wb-m1-speaker-headphone" >
+    <path name="dup-call-wb-m0-speaker-headphone" />
   </path>
 
-  <path name="call-wb-m1-speaker-bt-sco-headset" >
-    <path name="call-wb-m0-speaker-bt-sco-headset" />
+  <path name="dup-call-wb-m1-speaker-bt-sco-headset" >
+    <path name="dup-call-wb-m0-speaker-bt-sco-headset" />
   </path>
 
   <path name="dup-call-wb-m1-earpiece" >
@@ -1195,12 +1212,24 @@
     <path name="media-earpiece" />
   </path>
 
+  <path name="mmi-test-leftspeaker" >
+    <path name="media-speaker" />
+  </path>
+
+  <path name="mmi-test-rightspeaker" >
+    <path name="media-speaker" />
+  </path>
+
   <path name="mmi-test-speaker-receiver" >
     <path name="media-speaker" />
   </path>
 
   <path name="mmi-test-headphone" >
     <path name="media-headphone" />
+  </path>
+
+  <path name="mmi-test-extern-headset-hifi" >
+    <path name="media-headset-extern-hifi" />
   </path>
 
   <path name="mmi-test-mainmic" >
@@ -1323,13 +1352,11 @@
 
   <path name="mmi-audioloop-hsmic-receiver" >
     <path name="headset-mic" />
-    <ctl name="M1L MUX" value="ADC0L" />
-    <ctl name="M1R MUX" value="ADC0R" />
-    <ctl name="S4 OL SWITCH SWITCH" value="1" />
-    <ctl name="S4 OR SWITCH SWITCH" value="1" />
-    <ctl name="SP IL SWITCH SWITCH" value="1" />
-    <ctl name="SP IR SWITCH SWITCH" value="1" />
-    <ctl name="S4 IF CLK EN" value="1" />
+    <ctl name="SIDETONE MUX" value="ADC0L" />
+    <ctl name="DACSL MIXER SIDETONE SWITCH" value="1" />
+    <ctl name="EP MUX" value="DACSL" />
+    <ctl name="EP SWITCH SWITCH" value="1" />
+    <ctl name="SIDETONE SRC EN" value="1" />
   </path>
 
   <path name="mmi-audioloop-hsmic-speaker" >
@@ -1341,6 +1368,14 @@
     <ctl name="SP IL SWITCH SWITCH" value="1" />
     <ctl name="SP IR SWITCH SWITCH" value="1" />
     <ctl name="S4 IF CLK EN" value="1" />
+  </path>
+
+  <path name="mmi-audioloop-hsmic-leftspeaker" >
+    <path name="mmi-audioloop-hsmic-speaker" />
+  </path>
+
+  <path name="mmi-audioloop-hsmic-rightspeaker" >
+    <path name="mmi-audioloop-hsmic-speaker" />
   </path>
 
   <path name="lineinl-mono" >
@@ -1357,10 +1392,7 @@
 
   <path name="mmi-lineinl-receiver-rec" >
     <path name="lineinl-mono" />
-    <ctl name="EP MUX" value="DACSL" />
-    <ctl name="DACSL MIXER L SWITCH" value="1" />
-    <ctl name="DACSL MIXER R SWITCH" value="1" />
-    <ctl name="EP SWITCH SWITCH" value="1" />
+    <path name="earpiece" />
     <path name="audio-capture" />
     <path name="audio-play" />
   </path>
@@ -1491,6 +1523,15 @@
     <ctl name="S2 IR SRC MODE" value="1" />
     <ctl name="S2 OL SRC EN" value="1" />
     <ctl name="S2 OL SRC MODE" value="0" />
+  </path>
+
+  <path name="cvaa-mono-channel" >
+      <ctl name="MIXERL S1 MUX" value="SHARE MIXER" />
+      <ctl name="MIXERR S1 MUX" value="SHARE MIXER" />
+      <ctl name="SHARE MIXER S1L SWITCH" value="1" />
+      <ctl name="SHARE MIXER S1R SWITCH" value="1" />
+      <ctl name="MIXERL S1L MUX SWITCH" value="1" />
+      <ctl name="MIXERR S1R MUX SWITCH" value="1" />
   </path>
 
 </mixer>
