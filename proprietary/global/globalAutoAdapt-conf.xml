@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 当前版本号：Global_parameters V3.381
-SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数。 -->
+<!-- 当前版本号：Global_parameters V3.567
+SE13_version 20170918
+目前包含 217个国家和地区，1334套运营商参数。 -->
 <numMatchs version="1">
   <numMatch name="etisalat"
     mcc="602"
     mnc="03"
     num_match="8"
   />
-  <numMatch name="Mobinil"
+  <numMatch name="Orange EG"
     mcc="602"
     mnc="01"
     num_match="8"
@@ -150,7 +151,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   <numMatch name="Inwi"
     mcc="604"
     mnc="02"
-    num_match="9"
+    num_match="8"
   />
   <numMatch name="Libyana"
     mcc="606"
@@ -784,7 +785,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     mcc="297"
     mnc="02"
     num_match="8"
-    max_message_size="102400"
+    max_message_size="307200"
     sms_to_mms_textthreshold="3"
   />
   <numMatch name="m:tel"
@@ -886,6 +887,16 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     num_match="9"
     max_message_size="307200"
     sms_to_mms_textthreshold="5"
+  />
+  <numMatch name="T-Mobile"
+    mcc="220"
+    mnc="04"
+    num_match="8"
+  />
+  <numMatch name="Digi HU"
+    mcc="216"
+    mnc="03"
+    num_match="9"
   />
   <numMatch name="MTN"
     mcc="655"
@@ -1411,14 +1422,19 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     mnc="05"
     num_match="8"
   />
+  <numMatch name="GT 4G"
+    mcc="466"
+    mnc="05"
+    num_match="8"
+  />
   <numMatch name="Telenor"
     mcc="414"
     mnc="06"
     num_match="8"
   />
-  <numMatch name="亞太電信"
-    mcc="466"
-    mnc="05"
+  <numMatch name="SEATEL CAMBODIA"
+    mcc="456"
+    mnc="11"
     num_match="8"
   />
   <numMatch name="PCCW-HKT"
@@ -1434,6 +1450,16 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   <numMatch name="MECTEL"
     mcc="414"
     mnc="03"
+    num_match="7"
+  />
+  <numMatch name="MVNO"
+    mcc="454"
+    mnc="24"
+    num_match="7"
+  />
+  <numMatch name="電信"
+    mcc="454"
+    mnc="31"
     num_match="7"
   />
   <numMatch name="Maxis"
@@ -1465,6 +1491,8 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     mcc="505"
     mnc="01"
     num_match="8"
+    max_message_size="614400"
+    sms_to_mms_textthreshold="11"
   />
   <numMatch name="Optus"
     mcc="505"
@@ -2081,13 +2109,6 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     max_message_size="307200"
     sms_to_mms_textthreshold="11"
   />
-  <numMatch name="Sainsbury's"
-    mcc="234"
-    mnc="15"
-    num_match="10"
-    max_message_size="307200"
-    sms_to_mms_textthreshold="11"
-  />
   <numMatch name="BT Mobile"
     mcc="234"
     mnc="08"
@@ -2104,6 +2125,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     mcc="262"
     mnc="02"
     num_match="10"
+    sms_7bit_enabled="1"
     max_message_size="307200"
     sms_to_mms_textthreshold="5"
   />
@@ -2246,6 +2268,24 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     mnc="33"
     num_match="7"
   />
+  <numMatch name="TeleCable"
+    mcc="214"
+    mnc="16"
+    num_match="9"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="FASTWEB"
+    mcc="222"
+    mnc="08"
+    num_match="7"
+  />
+  <numMatch name="Lycamobile FR"
+    mcc="208"
+    mnc="25"
+    num_match="9"
+    max_message_size="614400"
+    sms_to_mms_textthreshold="5"
+  />
   <numMatch name="du"
     mcc="424"
     mnc="03"
@@ -2334,17 +2374,20 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   <numMatch name="Zain"
     mcc="420"
     mnc="04"
-    num_match="7"
+    num_match="10"
+    num_match_short="9"
   />
   <numMatch name="Mobily"
     mcc="420"
     mnc="03"
-    num_match="7"
+    num_match="10"
+    num_match_short="9"
   />
   <numMatch name="STC"
     mcc="420"
     mnc="01"
-    num_match="7"
+    num_match="10"
+    num_match_short="9"
   />
   <numMatch name="KOREK"
     mcc="418"
@@ -2414,34 +2457,31 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   <numMatch name="Mobily"
     mcc="420"
     mnc="75"
-    num_match="7"
+    num_match="10"
+    num_match_short="9"
   />
   <numMatch name="Avea"
     mcc="286"
     mnc="03"
-    num_match="11"
-    num_match_short="7"
+    num_match="10"
     sms_coding_national="1"
   />
   <numMatch name="Avea"
     mcc="286"
     mnc="04"
-    num_match="11"
-    num_match_short="7"
+    num_match="10"
     sms_coding_national="1"
   />
   <numMatch name="Turkcell"
     mcc="286"
     mnc="01"
-    num_match="11"
-    num_match_short="7"
+    num_match="10"
     sms_coding_national="1"
   />
   <numMatch name="Vodafone"
     mcc="286"
     mnc="02"
-    num_match="11"
-    num_match_short="7"
+    num_match="10"
     sms_coding_national="1"
     max_message_size="307200"
     sms_to_mms_textthreshold="11"
@@ -2641,11 +2681,6 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   <numMatch name="ADAT"
     mcc="310"
     mnc="690"
-    num_match="10"
-  />
-  <numMatch name="Airfire"
-    mcc="310"
-    mnc="640"
     num_match="10"
   />
   <numMatch name="CBW"
@@ -3005,7 +3040,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     mcc="334"
     mnc="050"
     num_match="7"
-    max_message_size="307200"
+    max_message_size="614400"
     sms_to_mms_textthreshold="11"
   />
   <numMatch name="Movistar"
@@ -3251,7 +3286,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     max_message_size="307200"
     sms_to_mms_textthreshold="13"
   />
-  <numMatch name="Orange"
+  <numMatch name="Altice"
     mcc="370"
     mnc="01"
     num_match="7"
@@ -3359,7 +3394,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     mcc="334"
     mnc="090"
     num_match="7"
-    max_message_size="307200"
+    max_message_size="614400"
     sms_to_mms_textthreshold="11"
   />
   <numMatch name="Tigo"
@@ -3550,102 +3585,6 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     max_message_size="307200"
     sms_to_mms_textthreshold="11"
   />
-  <numMatch name="DIGICEL"
-    mcc="352"
-    mnc="03"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="358"
-    mnc="05"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="360"
-    mnc="07"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="363"
-    mnc="20"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="372"
-    mnc="02"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="537"
-    mnc="03"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="539"
-    mnc="88"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="541"
-    mnc="05"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="340"
-    mnc="020"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="342"
-    mnc="750"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="348"
-    mnc="770"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="352"
-    mnc="030"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="360"
-    mnc="070"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="363"
-    mnc="020"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="706"
-    mnc="020"
-    num_match="8"
-    sms_7bit_enabled="1"
-  />
-  <numMatch name="DIGICEL"
-    mcc="714"
-    mnc="041"
-    num_match="7"
-    sms_7bit_enabled="1"
-  />
   <numMatch name="Trilogy Dominicana S.A."
     mcc="370"
     mnc="04"
@@ -3675,9 +3614,108 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     num_match="7"
     sms_7bit_enabled="1"
   />
+  <numMatch name="CBL"
+    mcc="364"
+    mnc="49"
+    num_match="7"
+  />
+  <numMatch name="DIGICEL"
+    mcc="363"
+    mnc="02"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
   <numMatch name="DIGICEL"
     mcc="362"
     mnc="69"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="348"
+    mnc="770"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="706"
+    mnc="02"
+    num_match="8"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="340"
+    mnc="20"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="738"
+    mnc="01"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="372"
+    mnc="01"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="714"
+    mnc="040"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="714"
+    mnc="04"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="746"
+    mnc="03"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="374"
+    mnc="130"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="DIGICEL"
+    mcc="374"
+    mnc="13"
+    num_match="7"
+    sms_7bit_enabled="1"
+  />
+  <numMatch name="IUSACELL"
+    mcc="334"
+    mnc="05"
+    num_match="7"
+    max_message_size="614400"
+    sms_to_mms_textthreshold="11"
+  />
+  <numMatch name="CBL"
+    mcc="364"
+    mnc="490"
+    num_match="7"
+  />
+  <numMatch name="Open Mobile"
+    mcc="330"
+    mnc="120"
+    num_match="7"
+  />
+  <numMatch name="Open Mobile"
+    mcc="330"
+    mnc="00"
+    num_match="7"
+  />
+  <numMatch name="Ozone"
+    mcc="342"
+    mnc="800"
     num_match="7"
     sms_7bit_enabled="1"
   />

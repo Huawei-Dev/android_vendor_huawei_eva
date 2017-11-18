@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 当前版本号：Global_parameters V3.381
-SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数。 -->
+<!-- 当前版本号：Global_parameters V3.567
+SE13_version 20170918
+目前包含 217个国家和地区，1334套运营商参数。 -->
 <voicemail version="6">
   <voicemail numeric="60203"
     carrier="etisalat"
@@ -8,7 +9,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     vmtag="voicemail"
   />
   <voicemail numeric="60201"
-    carrier="Mobinil"
+    carrier="Orange EG"
     vmnumber="777"
     vmtag="voicemail"
   />
@@ -412,6 +413,11 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     vmnumber="004794505050"
     vmtag="voicemail"
   />
+  <voicemail numeric="22004"
+    carrier="T-Mobile"
+    vmnumber="+3826714077"
+    vmtag="voicemail"
+  />
   <voicemail numeric="65510"
     carrier="MTN"
     vmnumber="100"
@@ -508,7 +514,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     vmtag="voicemail"
   />
   <voicemail numeric="46605"
-    carrier="亞太電信"
+    carrier="GT 4G"
     vmnumber="777"
     vmtag="voicemail"
   />
@@ -837,11 +843,6 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     vmnumber="07973100123"
     vmtag="voicemail"
   />
-  <voicemail numeric="23415"
-    carrier="Sainsbury's"
-    vmnumber="121"
-    vmtag="voicemail"
-  />
   <voicemail numeric="23594"
     carrier="3"
     vmnumber="+447782333123"
@@ -889,7 +890,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   />
   <voicemail numeric="27205"
     carrier="3"
-    vmnumber="+353833333171"
+    vmnumber="171"
     vmtag="voicemail"
   />
   <voicemail numeric="27203"
@@ -935,6 +936,16 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   <voicemail numeric="22233"
     carrier="PosteMobile"
     vmnumber="427242"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="21416"
+    carrier="TeleCable"
+    vmnumber="333"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="22208"
+    carrier="FASTWEB"
+    vmnumber="4141"
     vmtag="voicemail"
   />
   <voicemail numeric="28603"
@@ -1223,7 +1234,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     vmtag="voicemail"
   />
   <voicemail numeric="37001"
-    carrier="Orange"
+    carrier="Altice"
     vmnumber="*777"
     vmtag="voicemail"
   />
@@ -1294,7 +1305,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   />
   <voicemail numeric="334090"
     carrier="Nextel"
-    vmnumber="+525535396245"
+    vmnumber="*86"
     vmtag="voicemail"
   />
   <voicemail numeric="704020"
@@ -1447,86 +1458,6 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     vmnumber="*80"
     vmtag="voicemail"
   />
-  <voicemail numeric="35203"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="35805"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="36007"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="36320"
-    carrier="DIGICEL"
-    vmnumber="144"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="37202"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="53703"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="53988"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="54105"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="340020"
-    carrier="DIGICEL"
-    vmnumber="660"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="342750"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="348770"
-    carrier="DIGICEL"
-    vmnumber="#123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="352030"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="360070"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="363020"
-    carrier="DIGICEL"
-    vmnumber="144"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="706020"
-    carrier="DIGICEL"
-    vmnumber="*123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="714041"
-    carrier="DIGICEL"
-    vmnumber="123"
-    vmtag="voicemail"
-  />
   <voicemail numeric="37004"
     carrier="Trilogy Dominicana S.A."
     vmnumber="*89"
@@ -1552,9 +1483,94 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
     vmnumber="123"
     vmtag="voicemail"
   />
+  <voicemail numeric="36449"
+    carrier="CBL"
+    vmnumber="500"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="36302"
+    carrier="DIGICEL"
+    vmnumber="144"
+    vmtag="voicemail"
+  />
   <voicemail numeric="36269"
     carrier="DIGICEL"
     vmnumber="144"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="348770"
+    carrier="DIGICEL"
+    vmnumber="#123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="70602"
+    carrier="DIGICEL"
+    vmnumber="*123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="34020"
+    carrier="DIGICEL"
+    vmnumber="660"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="73801"
+    carrier="DIGICEL"
+    vmnumber="123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="37201"
+    carrier="DIGICEL"
+    vmnumber="123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="714040"
+    carrier="DIGICEL"
+    vmnumber="123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="71404"
+    carrier="DIGICEL"
+    vmnumber="123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="74603"
+    carrier="DIGICEL"
+    vmnumber="143"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="374130"
+    carrier="DIGICEL"
+    vmnumber="123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="37413"
+    carrier="DIGICEL"
+    vmnumber="123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="33405"
+    carrier="IUSACELL"
+    vmnumber="*86"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="364490"
+    carrier="CBL"
+    vmnumber="500"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="330120"
+    carrier="Open Mobile"
+    vmnumber="123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="33000"
+    carrier="Open Mobile"
+    vmnumber="123"
+    vmtag="voicemail"
+  />
+  <voicemail numeric="342800"
+    carrier="Ozone"
+    vmnumber="*123"
     vmtag="voicemail"
   />
   <voicemail numeric="72405"
@@ -1679,7 +1695,7 @@ SE13_version 20160222目前包含 217个国家和地区，1334套运营商参数
   />
   <voicemail numeric="74807"
     carrier="Movistar"
-    vmnumber="*6684"
+    vmnumber="6684"
     vmtag="voicemail"
   />
   <voicemail numeric="73002"

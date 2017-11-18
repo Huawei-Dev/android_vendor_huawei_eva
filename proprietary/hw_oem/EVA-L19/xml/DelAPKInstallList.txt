@@ -1,6 +1,0 @@
-/data/dataapp/WPS/WPS.apk
-/data/dataapp/HwAllBackup_Local/HwAllBackup_Local.apk
-/data/dataapp/HwMirror/HwMirror.apk
-/data/dataapp/MopriaPrintService/MopriaPrintService.apk
-/data/dataapp/EyeEM/EyeEM.apk
-/data/dataapp/HwHealthPlatform/HwHealthPlatform.apk
